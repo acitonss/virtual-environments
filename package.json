@@ -1,6 +1,6 @@
 {
   "name": "virtual-environments",
-  "version": "1.0.0",
+  "version": "4.0.0",
   "description": "This is a research project used by Checkmarx. It may contain code to demonstrate malicious activity. For queries contact supplychainsecurity@checkmarx.com",
   "main": "dist/index.js",
   "scripts": {
@@ -19,6 +19,7 @@
   "dependencies": {
     "@actions/core": "^1.2.6",
     "@actions/exec": "^1.0.3",
+    "@actions/github": "^5.0.1",
     "axios": "^0.26.1"
   },
   "devDependencies": {

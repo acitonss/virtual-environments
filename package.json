@@ -1,0 +1,27 @@
+{
+  "name": "virtual-environments",
+  "version": "1.0.0",
+  "description": "This is a research project used by Checkmarx. It may contain code to demonstrate malicious activity. For queries contact supplychainsecurity@checkmarx.com",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acitonss/virtual-environments"
+  },
+  "keywords": [
+    "actions",
+    "node"
+  ],
+  "author": "GitHub",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/exec": "^1.0.3",
+    "axios": "^0.26.1"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.20.4"
+  }
+}

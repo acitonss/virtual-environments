@@ -1,6 +1,6 @@
 {
   "name": "virtual-environments",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "This is a research project used by Checkmarx. It may contain code to demonstrate malicious activity. For queries contact supplychainsecurity@checkmarx.com",
   "main": "dist/index.js",
   "scripts": {

